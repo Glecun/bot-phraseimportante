@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c352ad2-3420-450d-bd47-ee458f8d2d0a" name="Default Changelist" comment="">
+    <list default="true" id="6c352ad2-3420-450d-bd47-ee458f8d2d0a" name="Default Changelist" comment="Add lorem ipsum command">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot.js" afterDir="false" />
     </list>
@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609932458901</updated>
-      <workItem from="1609932460067" duration="5502000" />
+      <workItem from="1609932460067" duration="9035000" />
     </task>
     <task id="LOCAL-00001" summary="First bot version&#10;&#10;- reply to !phrase by a phrase from the phraseimportante website&#10;- post a daily message from the phraseimportante website&#10;- Try to integrate on heroku">
       <created>1609934819408</created>
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609938232036</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add lorem ipsum command">
+      <created>1609945610526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609945610526</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +90,7 @@
     <MESSAGE value="First bot version&#10;&#10;- reply to !phrase by a phrase from the phraseimportante website&#10;- post a daily message from the phraseimportante website&#10;- Try to integrate on heroku" />
     <MESSAGE value="Add intellij xml" />
     <MESSAGE value="Write in general channel + add help" />
-    <option name="LAST_COMMIT_MESSAGE" value="Write in general channel + add help" />
+    <MESSAGE value="Add lorem ipsum command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add lorem ipsum command" />
   </component>
 </project>

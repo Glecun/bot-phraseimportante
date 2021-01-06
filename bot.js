@@ -7,7 +7,6 @@ const DAY_IN_MILLISECONDS = 1000 * 60 * 60 * 24;
 
 client.on('ready', function () {
   console.log("Bot ON !")
-  client.channels.cache.get(GENERAL_CHANNEL_KEY).send("Tapez !phrase-help pour connaître les commandes disponibles");
 })
 
 client.on('message', async msg => {
@@ -16,8 +15,11 @@ client.on('message', async msg => {
     msg.channel.send(phrase);
   }
   if (msg.content === '!loremIpsum') {
-    const loremIpsum = await fetch('http://phraseimportante.fr/getLoremIpsum.php').then(response => response);
-    msg.channel.send(loremIpsum.replaceAll('<br\/>', '\n'));
+    let loremIpsum = await fetch('http://phraseimportante.fr/getLoremIpsum.php').then(response => response.json());
+    loremIpsum
+       .replace(/<br\/>/g, '\n')
+       .split('\n')
+       .forEach((paragraph) => msg.channel.send(paragraph))
   }
   if (msg.content === '!phrase-help') {
     msg.channel.send(
@@ -29,8 +31,7 @@ client.on('message', async msg => {
 
 client.on('ready',  () => {
   setTimeout(function(){
-    sendMessage();
-    setInterval(function(){sendMessage();}, DAY_IN_MILLISECONDS)
+    setInterval(function(){sendSentenceOfTheDay();}, DAY_IN_MILLISECONDS)
   }, leftToEight())
 })
 
@@ -38,7 +39,7 @@ function leftToEight(){
   var d = new Date();
   return (-d + d.setHours(8,0,0,0));
 }
-async function sendMessage() {
+async function sendSentenceOfTheDay() {
   const { phrase } = await fetch('http://phraseimportante.fr/getPhrase.php').then(response => response.json());
   client.channels.cache.get(GENERAL_CHANNEL_KEY).send("**Phrase du jour:** " + phrase);
 }
