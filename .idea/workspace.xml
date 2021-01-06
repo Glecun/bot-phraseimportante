@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c352ad2-3420-450d-bd47-ee458f8d2d0a" name="Default Changelist" comment="" />
+    <list default="true" id="6c352ad2-3420-450d-bd47-ee458f8d2d0a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609932458901</updated>
-      <workItem from="1609932460067" duration="2777000" />
+      <workItem from="1609932460067" duration="3995000" />
     </task>
     <task id="LOCAL-00001" summary="First bot version&#10;&#10;- reply to !phrase by a phrase from the phraseimportante website&#10;- post a daily message from the phraseimportante website&#10;- Try to integrate on heroku">
       <created>1609934819408</created>
