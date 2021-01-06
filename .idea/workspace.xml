@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609932458901</updated>
-      <workItem from="1609932460067" duration="3995000" />
+      <workItem from="1609932460067" duration="5502000" />
     </task>
     <task id="LOCAL-00001" summary="First bot version&#10;&#10;- reply to !phrase by a phrase from the phraseimportante website&#10;- post a daily message from the phraseimportante website&#10;- Try to integrate on heroku">
       <created>1609934819408</created>
@@ -66,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609934860722</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Write in general channel + add help">
+      <created>1609938232036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609938232036</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +82,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First bot version&#10;&#10;- reply to !phrase by a phrase from the phraseimportante website&#10;- post a daily message from the phraseimportante website&#10;- Try to integrate on heroku" />
     <MESSAGE value="Add intellij xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add intellij xml" />
+    <MESSAGE value="Write in general channel + add help" />
+    <option name="LAST_COMMIT_MESSAGE" value="Write in general channel + add help" />
   </component>
 </project>

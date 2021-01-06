@@ -15,8 +15,15 @@ client.on('message', async msg => {
     const { phrase } = await fetch('http://phraseimportante.fr/getPhrase.php').then(response => response.json());
     msg.channel.send(phrase);
   }
+  if (msg.content === '!loremIpsum') {
+    const loremIpsum = await fetch('http://phraseimportante.fr/getLoremIpsum.php').then(response => response);
+    msg.channel.send(loremIpsum.replaceAll('<br\/>', '\n'));
+  }
   if (msg.content === '!phrase-help') {
-    msg.channel.send("!phrase : Poster une phrase aléatoire");
+    msg.channel.send(
+       "!phrase : Poster une phrase aléatoire\n"+
+       "!loremIpsum: Poster un lorem ipsum aléatoire"
+    );
   }
 });
 
