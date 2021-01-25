@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c352ad2-3420-450d-bd47-ee458f8d2d0a" name="Default Changelist" comment="Add lorem ipsum command">
+      <change afterPath="$PROJECT_DIR$/daily-sentence.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot.js" afterDir="false" />
     </list>
@@ -9,6 +10,16 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,6 +62,10 @@
       <option name="presentableId" value="Default" />
       <updated>1609932458901</updated>
       <workItem from="1609932460067" duration="9035000" />
+      <workItem from="1610008861153" duration="385000" />
+      <workItem from="1610038724409" duration="814000" />
+      <workItem from="1610040086590" duration="2053000" />
+      <workItem from="1611598492799" duration="946000" />
     </task>
     <task id="LOCAL-00001" summary="First bot version&#10;&#10;- reply to !phrase by a phrase from the phraseimportante website&#10;- post a daily message from the phraseimportante website&#10;- Try to integrate on heroku">
       <created>1609934819408</created>
@@ -80,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609945610526</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add a command to add a sentence">
+      <created>1610041608674</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610041608675</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +113,7 @@
     <MESSAGE value="Add intellij xml" />
     <MESSAGE value="Write in general channel + add help" />
     <MESSAGE value="Add lorem ipsum command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add lorem ipsum command" />
+    <MESSAGE value="Add a command to add a sentence" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a command to add a sentence" />
   </component>
 </project>
