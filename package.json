@@ -4,11 +4,12 @@
   "description": "",
   "main": "bot.js",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "dotenv": "^16.0.1",
+    "node-schedule": "^2.1.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "node bot.js"
+    "start": "node -r dotenv/config bot.js"
   },
   "author": "",
   "license": "ISC"

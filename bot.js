@@ -1,9 +1,15 @@
 const Discord = require('discord.js')
 const fetch = require('node-fetch');
+const schedule = require('node-schedule');
 const client = new Discord.Client()
 
 client.on('ready', function () {
   console.log("Bot ON !")
+
+  schedule.scheduleJob('30 18 * * 0,2,4,6', async function () {
+    const {phrase} = await fetch('http://phraseimportante.fr/getPhrase.php').then(response => response.json());
+    client.channels.cache.get(process.env.GENERAL_CHANNEL_KEY).send("**Phrase du jour:** " + phrase);
+  });
 })
 
 client.on('message', async msg => {
@@ -36,5 +42,4 @@ client.on('message', async msg => {
   }
 });
 
-//https://dashboard.heroku.com/apps/bot-phraseimportante/settings
 client.login(process.env.BOT_TOKEN);
